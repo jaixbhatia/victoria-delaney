@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-peer-reviewed-publications",
-          title: "peer-reviewed publications",
+  },{id: "nav-published-research",
+          title: "published research",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -46,10 +46,17 @@ ninja.data = [{
           },
         },{id: "nav-lab",
           title: "lab",
-          description: "members of the lab or group",
+          description: "members of the lab",
           section: "Navigation",
           handler: () => {
             window.location.href = "/lab/";
+          },
+        },{id: "nav-resources",
+          title: "resources",
+          description: "Resources for graduate students and early career researchers",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resources/";
           },
         },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
@@ -62,51 +69,26 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-ai-and-creative-production",
+          title: 'AI and Creative Production',
+          description: "I share this work with postdoctoral scholar ‘Joba Adisa. We are interviewing students as they participate in a task protocol we designed to elicit creative thinking with GenAI. We are curious to explore (1) how students generate new ideas when GenAI is present, and (2) how students solve open-ended problems with creative solutions when GenAI is present.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/AI_and_creative_production/";
+            },},{id: "projects-ai-and-productive-struggle-in-mathematics",
+          title: 'AI and Productive Struggle in Mathematics',
+          description: "In partnership with three graduate students, we are interviewing mathematics students and asking them to “think aloud” as they solve pre-calculus, statistics, and calculus free response tasks when AI is available.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/AI_and_productive_struggle_in_mathematics/";
+            },},{id: "projects-math-of-facial-recognition",
+          title: 'Math of Facial Recognition',
+          description: "This work was the basis of my dissertation thesis. I co-designed a 5-lesson machine learning unit, “The Math of FaceID,” with high school teacher David Dobervich, for integration into high school statistics courses. I studied the classroom enactments of FaceID with three other teachers and the nature/substance of their curricular adaptations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/Math_Of_Facial_Recognition/";
+            },},{id: "projects-pre-service-teachers-conceptions-of-statistics",
+          title: 'Pre-Service Teachers’ Conceptions of Statistics',
+          description: "I designed a teaching unit with doctoral student Ryan Aniceto about conceptual understanding of high school statistics. We aim to understand how pre-service teachers develop conceptual understanding of statistics and what challenges they encounter when learning to teach about it.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/Pre-Service_Teachers'_Conceptions_of_Statistics-copy/";
             },},{
         id: 'social-email',
         title: 'email',
